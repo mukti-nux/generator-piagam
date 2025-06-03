@@ -13,17 +13,17 @@
   color: #333;
 }
 .text-nama {
-  top: 35%;
+  top: 38%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-47%);
   font-size: 36px;
   font-weight: bold;
   position: absolute;
 }
 .text-status {
-  top: 53%;
+  top: 57%;
   font-size: 28px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-47%);
   position: absolute;
 }
