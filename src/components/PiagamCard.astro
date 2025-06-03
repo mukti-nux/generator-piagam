@@ -1,0 +1,35 @@
+---
+// Props: nama dan status dari halaman utama
+const { nama, status } = Astro.props;
+---
+
+<style>
+  .piagam-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url('/template-piagam.png');
+    background-size: cover;
+  }
+  .text-nama, .text-status {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+  .text-nama {
+    top: 60%;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .text-status {
+    top: 70%;
+    font-size: 28px;
+  }
+</style>
+
+<div class="piagam-container">
+  <div class="text-nama">{nama}</div>
+  <div class="text-status">{status}</div>
+</div>
