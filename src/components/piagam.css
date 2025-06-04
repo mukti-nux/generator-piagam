@@ -4,6 +4,8 @@
   height: 600px;
   background-image: url('/template-piagam.png');
   background-size: cover;
+  margin: auto;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 .text-nama, .text-status {
   position: absolute;
@@ -21,7 +23,7 @@
   position: absolute;
 }
 .text-status {
-  top: 54%;
+  top: 54.5%;
   font-size: 28px;
   left: 50%;
   transform: translateX(-48%);
